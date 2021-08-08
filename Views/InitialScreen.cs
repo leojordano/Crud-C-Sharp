@@ -36,8 +36,7 @@ namespace App1.Views
 
         private void InitialScreen_Load(object sender, EventArgs e)
         {
-            DbClient c = new DbClient();
-            ClientsGridView.DataSource = c.ListClients();
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -47,8 +46,8 @@ namespace App1.Views
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DbClient c = new DbClient();
-            ClientsGridView.DataSource = c.ListClients();
+            ListClients ListClientsScreen = new ListClients();
+            ListClientsScreen.ShowDialog();
         }
     }
 }

@@ -33,10 +33,10 @@ namespace App1.Views
             this.c_name = new System.Windows.Forms.TextBox();
             this.c_email = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.c_pass = new System.Windows.Forms.TextBox();
-            this.c_adress = new System.Windows.Forms.Label();
-            this.c_checkPass = new System.Windows.Forms.TextBox();
-            this.c_cpf = new System.Windows.Forms.Label();
+            this.c_adress = new System.Windows.Forms.TextBox();
+            this.label_adress = new System.Windows.Forms.Label();
+            this.c_cpf = new System.Windows.Forms.TextBox();
+            this.labelCpf = new System.Windows.Forms.Label();
             this.btn_addUser = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -74,37 +74,37 @@ namespace App1.Views
             this.label2.TabIndex = 2;
             this.label2.Text = "Email";
             // 
-            // c_pass
-            // 
-            this.c_pass.Location = new System.Drawing.Point(48, 135);
-            this.c_pass.Name = "c_pass";
-            this.c_pass.Size = new System.Drawing.Size(197, 20);
-            this.c_pass.TabIndex = 5;
-            // 
             // c_adress
             // 
-            this.c_adress.AutoSize = true;
-            this.c_adress.Location = new System.Drawing.Point(45, 118);
+            this.c_adress.Location = new System.Drawing.Point(48, 135);
             this.c_adress.Name = "c_adress";
-            this.c_adress.Size = new System.Drawing.Size(53, 13);
-            this.c_adress.TabIndex = 4;
-            this.c_adress.Text = "Endereço";
+            this.c_adress.Size = new System.Drawing.Size(197, 20);
+            this.c_adress.TabIndex = 5;
             // 
-            // c_checkPass
+            // label_adress
             // 
-            this.c_checkPass.Location = new System.Drawing.Point(48, 183);
-            this.c_checkPass.Name = "c_checkPass";
-            this.c_checkPass.Size = new System.Drawing.Size(197, 20);
-            this.c_checkPass.TabIndex = 7;
+            this.label_adress.AutoSize = true;
+            this.label_adress.Location = new System.Drawing.Point(45, 118);
+            this.label_adress.Name = "label_adress";
+            this.label_adress.Size = new System.Drawing.Size(53, 13);
+            this.label_adress.TabIndex = 4;
+            this.label_adress.Text = "Endereço";
             // 
             // c_cpf
             // 
-            this.c_cpf.AutoSize = true;
-            this.c_cpf.Location = new System.Drawing.Point(45, 166);
+            this.c_cpf.Location = new System.Drawing.Point(48, 183);
             this.c_cpf.Name = "c_cpf";
-            this.c_cpf.Size = new System.Drawing.Size(27, 13);
-            this.c_cpf.TabIndex = 6;
-            this.c_cpf.Text = "CPF";
+            this.c_cpf.Size = new System.Drawing.Size(197, 20);
+            this.c_cpf.TabIndex = 7;
+            // 
+            // labelCpf
+            // 
+            this.labelCpf.AutoSize = true;
+            this.labelCpf.Location = new System.Drawing.Point(45, 166);
+            this.labelCpf.Name = "labelCpf";
+            this.labelCpf.Size = new System.Drawing.Size(27, 13);
+            this.labelCpf.TabIndex = 6;
+            this.labelCpf.Text = "CPF";
             // 
             // btn_addUser
             // 
@@ -134,10 +134,10 @@ namespace App1.Views
             this.ClientSize = new System.Drawing.Size(312, 346);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_addUser);
-            this.Controls.Add(this.c_checkPass);
             this.Controls.Add(this.c_cpf);
-            this.Controls.Add(this.c_pass);
+            this.Controls.Add(this.labelCpf);
             this.Controls.Add(this.c_adress);
+            this.Controls.Add(this.label_adress);
             this.Controls.Add(this.c_email);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.c_name);
@@ -158,10 +158,10 @@ namespace App1.Views
         private System.Windows.Forms.TextBox c_name;
         private System.Windows.Forms.TextBox c_email;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox c_pass;
-        private System.Windows.Forms.Label c_adress;
-        private System.Windows.Forms.TextBox c_checkPass;
-        private System.Windows.Forms.Label c_cpf;
+        private System.Windows.Forms.TextBox c_adress;
+        private System.Windows.Forms.Label label_adress;
+        private System.Windows.Forms.TextBox c_cpf;
+        private System.Windows.Forms.Label labelCpf;
         private System.Windows.Forms.Button btn_addUser;
         private System.Windows.Forms.Button btn_cancel;
     }

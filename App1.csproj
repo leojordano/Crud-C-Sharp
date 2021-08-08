@@ -104,6 +104,12 @@
     <Compile Include="Views\InitialScreen.Designer.cs">
       <DependentUpon>InitialScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\ListClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ListClients.Designer.cs">
+      <DependentUpon>ListClients.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\NovoCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Views\InitialScreen.resx">
       <DependentUpon>InitialScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ListClients.resx">
+      <DependentUpon>ListClients.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\NovoCliente.resx">
       <DependentUpon>NovoCliente.cs</DependentUpon>
